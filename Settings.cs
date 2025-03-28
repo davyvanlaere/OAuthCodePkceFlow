@@ -1,9 +1,8 @@
-﻿namespace OAuthCodePkceFlow
+﻿namespace TokenUtility
 {
     public class Settings
     {
-        public string AuthenticationUri { get; set; }
-        public string TokenUri { get; set; }
+        public string Authority { get; set; }
         public string ClientId { get; set; }
         public string Scope { get; set; }
     }
